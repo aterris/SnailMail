@@ -13,6 +13,10 @@
 		CCCB1A5A1AB0D48A0067F100 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCB1A591AB0D48A0067F100 /* Images.xcassets */; };
 		CCCB1A5D1AB0D48A0067F100 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCCB1A5B1AB0D48A0067F100 /* LaunchScreen.xib */; };
 		CCCB1A691AB0D48A0067F100 /* SnailMailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB1A681AB0D48A0067F100 /* SnailMailTests.swift */; };
+		CCCB1A731AB0D7CE0067F100 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB1A721AB0D7CE0067F100 /* LoginViewController.swift */; };
+		CCCB1A751AB0D87F0067F100 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB1A741AB0D87F0067F100 /* Person.swift */; };
+		CCCB1A771AB0D9930067F100 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB1A761AB0D9930067F100 /* SampleData.swift */; };
+		CCCB1A7B1AB0DE780067F100 /* MyMailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB1A7A1AB0DE780067F100 /* MyMailboxViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		CCCB1A621AB0D48A0067F100 /* SnailMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnailMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCB1A671AB0D48A0067F100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCCB1A681AB0D48A0067F100 /* SnailMailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnailMailTests.swift; sourceTree = "<group>"; };
+		CCCB1A721AB0D7CE0067F100 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CCCB1A741AB0D87F0067F100 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CCCB1A761AB0D9930067F100 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		CCCB1A7A1AB0DE780067F100 /* MyMailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMailboxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				CCCB1A591AB0D48A0067F100 /* Images.xcassets */,
 				CCCB1A5B1AB0D48A0067F100 /* LaunchScreen.xib */,
 				CCCB1A501AB0D48A0067F100 /* Supporting Files */,
+				CCCB1A721AB0D7CE0067F100 /* LoginViewController.swift */,
+				CCCB1A741AB0D87F0067F100 /* Person.swift */,
+				CCCB1A761AB0D9930067F100 /* SampleData.swift */,
+				CCCB1A7A1AB0DE780067F100 /* MyMailboxViewController.swift */,
 			);
 			path = SnailMail;
 			sourceTree = "<group>";
@@ -212,7 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCB1A731AB0D7CE0067F100 /* LoginViewController.swift in Sources */,
+				CCCB1A7B1AB0DE780067F100 /* MyMailboxViewController.swift in Sources */,
 				CCCB1A551AB0D48A0067F100 /* ViewController.swift in Sources */,
+				CCCB1A751AB0D87F0067F100 /* Person.swift in Sources */,
+				CCCB1A771AB0D9930067F100 /* SampleData.swift in Sources */,
 				CCCB1A531AB0D48A0067F100 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
