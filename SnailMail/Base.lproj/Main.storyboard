@@ -12,7 +12,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_small.jpg" id="gY8-pP-NJe">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snail_mail_without_background_small.png" id="gY8-pP-NJe">
                                 <rect key="frame" x="61" y="113" width="253" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -54,7 +54,7 @@
             </objects>
             <point key="canvasLocation" x="383.5" y="-476.5"/>
         </scene>
-        <!--Compose-->
+        <!--View Controller-->
         <scene sceneID="Wvy-Cu-ws5">
             <objects>
                 <viewController id="C6H-vD-JvM" sceneMemberID="viewController">
@@ -63,18 +63,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Compose" id="vjT-E2-KIM"/>
+                    <tabBarItem key="tabBarItem" title="" image="compose_small_white.png" id="vjT-E2-KIM"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aCh-NM-xSW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="923.5" y="971.5"/>
         </scene>
-        <!--Mailbox-->
+        <!--Navigation Controller-->
         <scene sceneID="tF7-Af-tCO">
             <objects>
                 <navigationController id="mbW-HK-cyf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Mailbox" id="bwH-XG-U47"/>
+                    <tabBarItem key="tabBarItem" title="" image="mailbox_small_white.png" id="bwH-XG-U47"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MFP-La-xWe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -231,7 +231,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo_small.jpg" width="320" height="240"/>
+        <image name="compose_small_white.png" width="50" height="50"/>
+        <image name="mailbox_small_white.png" width="50" height="50"/>
+        <image name="snail_mail_without_background_small.png" width="320" height="240"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

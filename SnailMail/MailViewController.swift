@@ -14,6 +14,7 @@ class MailViewController: UIViewController {
     @IBOutlet weak var mailText: UILabel!
     
     var mail:Mail!
+    var from:Person!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +30,7 @@ class MailViewController: UIViewController {
     }
     
     func generateMailText () -> String {
-        var mailText:String = "Dear \(mail.to),\n\n\(mail.content)\n\nSincerely,\n\n\(mail.from)"
+        var mailText:String = "Dear \(loggedInUser.name),\n\n\(mail.content)\n\nSincerely,\n\n\(from.name)"
         return mailText
     }
     

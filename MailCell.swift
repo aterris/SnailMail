@@ -13,6 +13,7 @@ class MailCell: UITableViewCell {
     @IBOutlet weak var fromLabel: UILabel!
     
     var mail:Mail!
+    var from:Person!
 
     override func awakeFromNib() {
         super.awakeFromNib()

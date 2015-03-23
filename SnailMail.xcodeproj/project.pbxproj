@@ -14,6 +14,17 @@
 		CC96E4A91ABCD91A001E6D27 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96E4A81ABCD91A001E6D27 /* Mail.swift */; };
 		CC96E4AD1ABCDEB5001E6D27 /* MailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96E4AC1ABCDEB5001E6D27 /* MailCell.swift */; };
 		CC96E4AF1AC0876D001E6D27 /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96E4AE1AC0876D001E6D27 /* MailViewController.swift */; };
+		CC96E4B81AC0A7FA001E6D27 /* compose_large.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B01AC0A7FA001E6D27 /* compose_large.png */; };
+		CC96E4B91AC0A7FA001E6D27 /* mailbox_large.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B11AC0A7FA001E6D27 /* mailbox_large.png */; };
+		CC96E4BA1AC0A7FA001E6D27 /* snailmail_with_background_large.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B21AC0A7FA001E6D27 /* snailmail_with_background_large.png */; };
+		CC96E4BB1AC0A7FA001E6D27 /* snailmail_without_background_large.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B31AC0A7FA001E6D27 /* snailmail_without_background_large.png */; };
+		CC96E4BC1AC0A7FA001E6D27 /* compose_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B41AC0A7FA001E6D27 /* compose_small.png */; };
+		CC96E4BD1AC0A7FA001E6D27 /* mailbox_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B51AC0A7FA001E6D27 /* mailbox_small.png */; };
+		CC96E4BE1AC0A7FA001E6D27 /* snail_mail_without_background_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B61AC0A7FA001E6D27 /* snail_mail_without_background_small.png */; };
+		CC96E4BF1AC0A7FA001E6D27 /* snailmail_with_background_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B71AC0A7FA001E6D27 /* snailmail_with_background_small.png */; };
+		CC96E4C11AC0AE16001E6D27 /* mailbox_small_white.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4C01AC0AE16001E6D27 /* mailbox_small_white.png */; };
+		CC96E4C31AC0AF43001E6D27 /* compose_small_white.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4C21AC0AF43001E6D27 /* compose_small_white.png */; };
+		CC96E4C51AC0AFD0001E6D27 /* compose_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4C41AC0AFD0001E6D27 /* compose_small.png */; };
 		CCCB1A531AB0D48A0067F100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB1A521AB0D48A0067F100 /* AppDelegate.swift */; };
 		CCCB1A551AB0D48A0067F100 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB1A541AB0D48A0067F100 /* ViewController.swift */; };
 		CCCB1A581AB0D48A0067F100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCB1A561AB0D48A0067F100 /* Main.storyboard */; };
@@ -43,6 +54,17 @@
 		CC96E4A81ABCD91A001E6D27 /* Mail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
 		CC96E4AC1ABCDEB5001E6D27 /* MailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MailCell.swift; path = ../MailCell.swift; sourceTree = "<group>"; };
 		CC96E4AE1AC0876D001E6D27 /* MailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
+		CC96E4B01AC0A7FA001E6D27 /* compose_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compose_large.png; sourceTree = "<group>"; };
+		CC96E4B11AC0A7FA001E6D27 /* mailbox_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mailbox_large.png; sourceTree = "<group>"; };
+		CC96E4B21AC0A7FA001E6D27 /* snailmail_with_background_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snailmail_with_background_large.png; sourceTree = "<group>"; };
+		CC96E4B31AC0A7FA001E6D27 /* snailmail_without_background_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snailmail_without_background_large.png; sourceTree = "<group>"; };
+		CC96E4B41AC0A7FA001E6D27 /* compose_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compose_small.png; sourceTree = "<group>"; };
+		CC96E4B51AC0A7FA001E6D27 /* mailbox_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mailbox_small.png; sourceTree = "<group>"; };
+		CC96E4B61AC0A7FA001E6D27 /* snail_mail_without_background_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snail_mail_without_background_small.png; sourceTree = "<group>"; };
+		CC96E4B71AC0A7FA001E6D27 /* snailmail_with_background_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snailmail_with_background_small.png; sourceTree = "<group>"; };
+		CC96E4C01AC0AE16001E6D27 /* mailbox_small_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mailbox_small_white.png; sourceTree = "<group>"; };
+		CC96E4C21AC0AF43001E6D27 /* compose_small_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compose_small_white.png; sourceTree = "<group>"; };
+		CC96E4C41AC0AFD0001E6D27 /* compose_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = compose_small.png; path = ../../../../Desktop/compose_small.png; sourceTree = "<group>"; };
 		CCCB1A4D1AB0D48A0067F100 /* SnailMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnailMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCB1A511AB0D48A0067F100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCCB1A521AB0D48A0067F100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +101,17 @@
 		CC96E4A31ABCD5AB001E6D27 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CC96E4C41AC0AFD0001E6D27 /* compose_small.png */,
+				CC96E4C21AC0AF43001E6D27 /* compose_small_white.png */,
+				CC96E4C01AC0AE16001E6D27 /* mailbox_small_white.png */,
+				CC96E4B01AC0A7FA001E6D27 /* compose_large.png */,
+				CC96E4B11AC0A7FA001E6D27 /* mailbox_large.png */,
+				CC96E4B21AC0A7FA001E6D27 /* snailmail_with_background_large.png */,
+				CC96E4B31AC0A7FA001E6D27 /* snailmail_without_background_large.png */,
+				CC96E4B41AC0A7FA001E6D27 /* compose_small.png */,
+				CC96E4B51AC0A7FA001E6D27 /* mailbox_small.png */,
+				CC96E4B61AC0A7FA001E6D27 /* snail_mail_without_background_small.png */,
+				CC96E4B71AC0A7FA001E6D27 /* snailmail_with_background_small.png */,
 				CC96E4A41ABCD5C5001E6D27 /* logo_small.jpg */,
 				CC96E4A51ABCD5C5001E6D27 /* logo_large.jpg */,
 			);
@@ -230,10 +263,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC96E4C31AC0AF43001E6D27 /* compose_small_white.png in Resources */,
+				CC96E4B81AC0A7FA001E6D27 /* compose_large.png in Resources */,
+				CC96E4C51AC0AFD0001E6D27 /* compose_small.png in Resources */,
 				CC96E4A71ABCD5C5001E6D27 /* logo_large.jpg in Resources */,
 				CCCB1A581AB0D48A0067F100 /* Main.storyboard in Resources */,
+				CC96E4B91AC0A7FA001E6D27 /* mailbox_large.png in Resources */,
+				CC96E4BD1AC0A7FA001E6D27 /* mailbox_small.png in Resources */,
+				CC96E4BA1AC0A7FA001E6D27 /* snailmail_with_background_large.png in Resources */,
+				CC96E4C11AC0AE16001E6D27 /* mailbox_small_white.png in Resources */,
+				CC96E4BF1AC0A7FA001E6D27 /* snailmail_with_background_small.png in Resources */,
+				CC96E4BB1AC0A7FA001E6D27 /* snailmail_without_background_large.png in Resources */,
 				CCCB1A5D1AB0D48A0067F100 /* LaunchScreen.xib in Resources */,
 				CC96E4A61ABCD5C5001E6D27 /* logo_small.jpg in Resources */,
+				CC96E4BE1AC0A7FA001E6D27 /* snail_mail_without_background_small.png in Resources */,
+				CC96E4BC1AC0A7FA001E6D27 /* compose_small.png in Resources */,
 				CCCB1A5A1AB0D48A0067F100 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

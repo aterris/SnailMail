@@ -51,6 +51,7 @@ class MyMailboxViewController: UITableViewController {
         let fromPerson = getPerson(mail.from)
         
         cell.mail = mail
+        cell.from = fromPerson
         cell.fromLabel.text = "From: \(fromPerson.name)"
         
         return cell
@@ -73,6 +74,8 @@ class MyMailboxViewController: UITableViewController {
             let mailViewController = segue.destinationViewController as MailViewController
             if let mailCell = sender as? MailCell {
                 mailViewController.mail = mailCell.mail
+                mailViewController.from = mailCell.from
+                
             }
         }
     }
