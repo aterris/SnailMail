@@ -13,6 +13,8 @@ class ComposeMailViewController: UIViewController {
     
     @IBOutlet weak var composeText: UITextView!
     @IBOutlet weak var toField: UITextField!
+    
+    var mail:Mail!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +32,12 @@ class ComposeMailViewController: UIViewController {
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         view.endEditing(true)
         super.touchesBegan(touches, withEvent: event)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "saveMail" {
+            mail = Mail(from: "\(loggedInUser.username)", to: "\(toField.text)", content: "\(composeText.text)")
+        }
     }
 
     /*

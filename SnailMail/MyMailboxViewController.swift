@@ -8,10 +8,11 @@
 
 import UIKit
 
+var mails:[Mail] = mailData
+
 class MyMailboxViewController: UITableViewController {
 
 
-    var mails:[Mail] = mailData
     var mailForUser:[Mail]!
     
     override func viewDidLoad() {

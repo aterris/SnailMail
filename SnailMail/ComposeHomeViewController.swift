@@ -23,6 +23,13 @@ class ComposeHomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func saveMail(segue:UIStoryboardSegue) {
+        let composeMailViewController = segue.sourceViewController as ComposeMailViewController
+        mails.append(composeMailViewController.mail)
+        
+        composeHomeMessage.text = "Mail sent."
+    }
+    
 
     /*
     // MARK: - Navigation
