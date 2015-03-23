@@ -36,4 +36,10 @@ class LogInViewController: UIViewController {
         }
     }
     
+    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+        view.endEditing(true)
+        super.touchesBegan(touches, withEvent: event)
+    }
+
+    
 }
