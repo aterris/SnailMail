@@ -66,7 +66,7 @@
 		CC96E4B71AC0A7FA001E6D27 /* snailmail_with_background_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snailmail_with_background_small.png; sourceTree = "<group>"; };
 		CC96E4C01AC0AE16001E6D27 /* mailbox_small_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mailbox_small_white.png; sourceTree = "<group>"; };
 		CC96E4C21AC0AF43001E6D27 /* compose_small_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compose_small_white.png; sourceTree = "<group>"; };
-		CC96E4C41AC0AFD0001E6D27 /* compose_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = compose_small.png; path = ../../../../Desktop/compose_small.png; sourceTree = "<group>"; };
+		CC96E4C41AC0AFD0001E6D27 /* compose_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compose_small.png; sourceTree = "<group>"; };
 		CC96E4C61AC0B1AC001E6D27 /* ComposeHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeHomeViewController.swift; sourceTree = "<group>"; };
 		CC96E4C81AC0B334001E6D27 /* ComposeMailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeMailViewController.swift; sourceTree = "<group>"; };
 		CCCB1A4D1AB0D48A0067F100 /* SnailMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnailMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
