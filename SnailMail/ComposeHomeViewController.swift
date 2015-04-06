@@ -30,6 +30,12 @@ class ComposeHomeViewController: UIViewController {
         composeHomeMessage.text = "Mail sent."
     }
     
+    @IBAction func compose(sender: AnyObject) {
+        var composeStoryboard:UIStoryboard = UIStoryboard(name: "Compose", bundle: nil)
+        var composeViewController = composeStoryboard.instantiateInitialViewController() as UIViewController
+        
+        self.navigationController?.pushViewController(composeViewController, animated: true)
+    }
 
     /*
     // MARK: - Navigation

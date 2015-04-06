@@ -37,6 +37,8 @@
 		CCCB1A751AB0D87F0067F100 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB1A741AB0D87F0067F100 /* Person.swift */; };
 		CCCB1A771AB0D9930067F100 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB1A761AB0D9930067F100 /* SampleData.swift */; };
 		CCCB1A7B1AB0DE780067F100 /* MyMailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCB1A7A1AB0DE780067F100 /* MyMailboxViewController.swift */; };
+		CCF400CB1AD20B6A00E4B289 /* Compose.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF400CA1AD20B6A00E4B289 /* Compose.storyboard */; };
+		CCF400CD1AD20BA600E4B289 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF400CC1AD20BA600E4B289 /* ComposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		CCCB1A741AB0D87F0067F100 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		CCCB1A761AB0D9930067F100 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		CCCB1A7A1AB0DE780067F100 /* MyMailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMailboxViewController.swift; sourceTree = "<group>"; };
+		CCF400CA1AD20B6A00E4B289 /* Compose.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Compose.storyboard; sourceTree = "<group>"; };
+		CCF400CC1AD20BA600E4B289 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		D8A0835F5B38C8306A5529CF /* Pods-SnailMail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnailMail.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnailMail/Pods-SnailMail.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +171,7 @@
 		CCCB1A4F1AB0D48A0067F100 /* SnailMail */ = {
 			isa = PBXGroup;
 			children = (
+				CCF400C91AD20B1A00E4B289 /* Compose */,
 				CC96E4A31ABCD5AB001E6D27 /* Resources */,
 				CC96E49F1ABCCBF2001E6D27 /* LogInViewController.swift */,
 				CCCB1A521AB0D48A0067F100 /* AppDelegate.swift */,
@@ -211,6 +216,15 @@
 				CCCB1A671AB0D48A0067F100 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCF400C91AD20B1A00E4B289 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				CCF400CA1AD20B6A00E4B289 /* Compose.storyboard */,
+				CCF400CC1AD20BA600E4B289 /* ComposeViewController.swift */,
+			);
+			path = Compose;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +313,7 @@
 				CC96E4C31AC0AF43001E6D27 /* compose_small_white.png in Resources */,
 				CC96E4B81AC0A7FA001E6D27 /* compose_large.png in Resources */,
 				CC96E4C51AC0AFD0001E6D27 /* compose_small.png in Resources */,
+				CCF400CB1AD20B6A00E4B289 /* Compose.storyboard in Resources */,
 				CC96E4A71ABCD5C5001E6D27 /* logo_large.jpg in Resources */,
 				CCCB1A581AB0D48A0067F100 /* Main.storyboard in Resources */,
 				CC96E4B91AC0A7FA001E6D27 /* mailbox_large.png in Resources */,
@@ -383,6 +398,7 @@
 				CCCB1A551AB0D48A0067F100 /* ViewController.swift in Sources */,
 				CCCB1A751AB0D87F0067F100 /* Person.swift in Sources */,
 				CC96E4A01ABCCBF2001E6D27 /* LogInViewController.swift in Sources */,
+				CCF400CD1AD20BA600E4B289 /* ComposeViewController.swift in Sources */,
 				CC96E4AD1ABCDEB5001E6D27 /* MailCell.swift in Sources */,
 				CC96E4C71AC0B1AC001E6D27 /* ComposeHomeViewController.swift in Sources */,
 				CCCB1A771AB0D9930067F100 /* SampleData.swift in Sources */,
