@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C046F6FB769C8909E1DBFCC /* Pods_SnailMail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3807C8F63AD90DB5CBAB805B /* Pods_SnailMail.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4068580FA6969210354FD30B /* Pods_SnailMailTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39499162981D30065B425B57 /* Pods_SnailMailTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5701624DAC59165B70F3D78C /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC13F07A6EB2E702F73D9678 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		677DD7B45114927E4429DA7B /* Pods_SnailMail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5005A271CEE9FB8C07119D5B /* Pods_SnailMail.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CC4692ED1AD220D300CB3239 /* PostOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4692EC1AD220D300CB3239 /* PostOffice.swift */; };
+		CC4692EE1AD220D300CB3239 /* PostOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4692EC1AD220D300CB3239 /* PostOffice.swift */; };
 		CC96E49C1ABCC8EB001E6D27 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96E49B1ABCC8EB001E6D27 /* WelcomeScreenViewController.swift */; };
 		CC96E4A01ABCCBF2001E6D27 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96E49F1ABCCBF2001E6D27 /* LogInViewController.swift */; };
 		CC96E4A61ABCD5C5001E6D27 /* logo_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4A41ABCD5C5001E6D27 /* logo_small.jpg */; };
@@ -19,7 +23,6 @@
 		CC96E4B91AC0A7FA001E6D27 /* mailbox_large.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B11AC0A7FA001E6D27 /* mailbox_large.png */; };
 		CC96E4BA1AC0A7FA001E6D27 /* snailmail_with_background_large.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B21AC0A7FA001E6D27 /* snailmail_with_background_large.png */; };
 		CC96E4BB1AC0A7FA001E6D27 /* snailmail_without_background_large.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B31AC0A7FA001E6D27 /* snailmail_without_background_large.png */; };
-		CC96E4BC1AC0A7FA001E6D27 /* compose_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B41AC0A7FA001E6D27 /* compose_small.png */; };
 		CC96E4BD1AC0A7FA001E6D27 /* mailbox_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B51AC0A7FA001E6D27 /* mailbox_small.png */; };
 		CC96E4BE1AC0A7FA001E6D27 /* snail_mail_without_background_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B61AC0A7FA001E6D27 /* snail_mail_without_background_small.png */; };
 		CC96E4BF1AC0A7FA001E6D27 /* snailmail_with_background_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CC96E4B71AC0A7FA001E6D27 /* snailmail_with_background_small.png */; };
@@ -49,8 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0982D993246B7E3C2F241E22 /* Pods-SnailMail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnailMail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnailMail/Pods-SnailMail.debug.xcconfig"; sourceTree = "<group>"; };
-		3807C8F63AD90DB5CBAB805B /* Pods_SnailMail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnailMail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		141896FAEB3A1B4EAB89C110 /* Pods-SnailMail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnailMail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnailMail/Pods-SnailMail.debug.xcconfig"; sourceTree = "<group>"; };
+		39499162981D30065B425B57 /* Pods_SnailMailTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnailMailTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB506840206DF22F2F38AF /* Pods-SnailMail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnailMail.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnailMail/Pods-SnailMail.release.xcconfig"; sourceTree = "<group>"; };
+		5005A271CEE9FB8C07119D5B /* Pods_SnailMail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnailMail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CE50173687FF6041D45184 /* Pods-SnailMailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnailMailTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnailMailTests/Pods-SnailMailTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC13F07A6EB2E702F73D9678 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4692EC1AD220D300CB3239 /* PostOffice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostOffice.swift; sourceTree = "<group>"; };
 		CC96E49B1ABCC8EB001E6D27 /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
 		CC96E49F1ABCCBF2001E6D27 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = ../../LogInViewController.swift; sourceTree = "<group>"; };
 		CC96E4A41ABCD5C5001E6D27 /* logo_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_small.jpg; sourceTree = "<group>"; };
@@ -83,7 +91,7 @@
 		CCCB1A741AB0D87F0067F100 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		CCCB1A761AB0D9930067F100 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		CCCB1A7A1AB0DE780067F100 /* MyMailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMailboxViewController.swift; sourceTree = "<group>"; };
-		D8A0835F5B38C8306A5529CF /* Pods-SnailMail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnailMail.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnailMail/Pods-SnailMail.release.xcconfig"; sourceTree = "<group>"; };
+		F57FD562DA408AC615620351 /* Pods-SnailMailTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnailMailTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnailMailTests/Pods-SnailMailTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C046F6FB769C8909E1DBFCC /* Pods_SnailMail.framework in Frameworks */,
+				5701624DAC59165B70F3D78C /* Pods.framework in Frameworks */,
+				677DD7B45114927E4429DA7B /* Pods_SnailMail.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4068580FA6969210354FD30B /* Pods_SnailMailTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,16 +118,20 @@
 		0C973BB1DCC0E4B9332939DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3807C8F63AD90DB5CBAB805B /* Pods_SnailMail.framework */,
+				BC13F07A6EB2E702F73D9678 /* Pods.framework */,
+				5005A271CEE9FB8C07119D5B /* Pods_SnailMail.framework */,
+				39499162981D30065B425B57 /* Pods_SnailMailTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		595838BF5BEAEC4AF73F6217 /* Pods */ = {
+		6AAB792C709818DF11634BD3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0982D993246B7E3C2F241E22 /* Pods-SnailMail.debug.xcconfig */,
-				D8A0835F5B38C8306A5529CF /* Pods-SnailMail.release.xcconfig */,
+				141896FAEB3A1B4EAB89C110 /* Pods-SnailMail.debug.xcconfig */,
+				46EB506840206DF22F2F38AF /* Pods-SnailMail.release.xcconfig */,
+				71CE50173687FF6041D45184 /* Pods-SnailMailTests.debug.xcconfig */,
+				F57FD562DA408AC615620351 /* Pods-SnailMailTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -158,6 +172,14 @@
 			path = ViewMail;
 			sourceTree = "<group>";
 		};
+		CC4692EB1AD2209C00CB3239 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CC4692EC1AD220D300CB3239 /* PostOffice.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		CC96E4A31ABCD5AB001E6D27 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,8 +206,8 @@
 				CCCB1A4F1AB0D48A0067F100 /* SnailMail */,
 				CCCB1A651AB0D48A0067F100 /* SnailMailTests */,
 				CCCB1A4E1AB0D48A0067F100 /* Products */,
-				595838BF5BEAEC4AF73F6217 /* Pods */,
 				0C973BB1DCC0E4B9332939DC /* Frameworks */,
+				6AAB792C709818DF11634BD3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,6 +231,7 @@
 				CC4692E91AD21C7A00CB3239 /* ComposeMail */,
 				CC4692E81AD21C6300CB3239 /* Login */,
 				CC4692E71AD21BCB00CB3239 /* Models */,
+				CC4692EB1AD2209C00CB3239 /* Services */,
 				CCCB1A761AB0D9930067F100 /* SampleData.swift */,
 				CC96E4A31ABCD5AB001E6D27 /* Resources */,
 				CCCB1A501AB0D48A0067F100 /* Supporting Files */,
@@ -249,12 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCCB1A6C1AB0D48A0067F100 /* Build configuration list for PBXNativeTarget "SnailMail" */;
 			buildPhases = (
-				6F546714FE3934A54C3A8408 /* Check Pods Manifest.lock */,
+				098A8E47A262D2B95A433A15 /* Check Pods Manifest.lock */,
 				CCCB1A491AB0D48A0067F100 /* Sources */,
 				CCCB1A4A1AB0D48A0067F100 /* Frameworks */,
 				CCCB1A4B1AB0D48A0067F100 /* Resources */,
-				DD45EBC87F3B6273574E24DA /* Embed Pods Frameworks */,
-				723E8AF16FF328DCE3E0F676 /* Copy Pods Resources */,
+				CE9C4BC2106BFDA3F687B885 /* Embed Pods Frameworks */,
+				AB8870264046CF143F909080 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,9 +292,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCCB1A6F1AB0D48A0067F100 /* Build configuration list for PBXNativeTarget "SnailMailTests" */;
 			buildPhases = (
+				860CC3D65FA766C62FA5ED39 /* Check Pods Manifest.lock */,
 				CCCB1A5E1AB0D48A0067F100 /* Sources */,
 				CCCB1A5F1AB0D48A0067F100 /* Frameworks */,
 				CCCB1A601AB0D48A0067F100 /* Resources */,
+				19D0BFB0601E2492AB5B4D00 /* Embed Pods Frameworks */,
+				3953EFA9C598BFC81689EC3A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,7 +365,6 @@
 				CCCB1A5D1AB0D48A0067F100 /* LaunchScreen.xib in Resources */,
 				CC96E4A61ABCD5C5001E6D27 /* logo_small.jpg in Resources */,
 				CC96E4BE1AC0A7FA001E6D27 /* snail_mail_without_background_small.png in Resources */,
-				CC96E4BC1AC0A7FA001E6D27 /* compose_small.png in Resources */,
 				CCCB1A5A1AB0D48A0067F100 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,7 +379,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6F546714FE3934A54C3A8408 /* Check Pods Manifest.lock */ = {
+		098A8E47A262D2B95A433A15 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,7 +394,52 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		723E8AF16FF328DCE3E0F676 /* Copy Pods Resources */ = {
+		19D0BFB0601E2492AB5B4D00 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnailMailTests/Pods-SnailMailTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3953EFA9C598BFC81689EC3A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnailMailTests/Pods-SnailMailTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		860CC3D65FA766C62FA5ED39 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB8870264046CF143F909080 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -384,7 +454,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnailMail/Pods-SnailMail-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DD45EBC87F3B6273574E24DA /* Embed Pods Frameworks */ = {
+		CE9C4BC2106BFDA3F687B885 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,6 +481,7 @@
 				CC96E4C91AC0B334001E6D27 /* ComposeMailViewController.swift in Sources */,
 				CCCB1A751AB0D87F0067F100 /* Person.swift in Sources */,
 				CC96E4A01ABCCBF2001E6D27 /* LogInViewController.swift in Sources */,
+				CC4692ED1AD220D300CB3239 /* PostOffice.swift in Sources */,
 				CC96E4AD1ABCDEB5001E6D27 /* MailCell.swift in Sources */,
 				CC96E4C71AC0B1AC001E6D27 /* ComposeHomeViewController.swift in Sources */,
 				CCCB1A771AB0D9930067F100 /* SampleData.swift in Sources */,
@@ -425,6 +496,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCCB1A691AB0D48A0067F100 /* SnailMailTests.swift in Sources */,
+				CC4692EE1AD220D300CB3239 /* PostOffice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,7 +609,7 @@
 		};
 		CCCB1A6D1AB0D48A0067F100 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0982D993246B7E3C2F241E22 /* Pods-SnailMail.debug.xcconfig */;
+			baseConfigurationReference = 141896FAEB3A1B4EAB89C110 /* Pods-SnailMail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SnailMail/Info.plist;
@@ -549,7 +621,7 @@
 		};
 		CCCB1A6E1AB0D48A0067F100 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8A0835F5B38C8306A5529CF /* Pods-SnailMail.release.xcconfig */;
+			baseConfigurationReference = 46EB506840206DF22F2F38AF /* Pods-SnailMail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SnailMail/Info.plist;
@@ -561,6 +633,7 @@
 		};
 		CCCB1A701AB0D48A0067F100 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CE50173687FF6041D45184 /* Pods-SnailMailTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -580,6 +653,7 @@
 		};
 		CCCB1A711AB0D48A0067F100 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57FD562DA408AC615620351 /* Pods-SnailMailTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

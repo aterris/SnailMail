@@ -14,15 +14,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-SnailMailTests-Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SnailMailTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2568D4335EE19ECD9483F638</key>
+		<key>237993834D486BDECD10EBD5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>637C8485505D9A06FBEAB3EE</key>
+		<key>38E60E6D159A7E91477E1DDD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C75891807F3763B2701FD708</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE572D2621998153281D8EC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,5 +7,5 @@ target 'SnailMail' do
 end
 
 target 'SnailMailTests' do
-
+  pod 'Alamofire', '~> 1.1'
 end
